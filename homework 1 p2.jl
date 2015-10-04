@@ -10,7 +10,7 @@ using ECOS
 using Convex
 # Generate random problem data
 m = 100;  n = 30
-# A = randn(m, n); b = randn(m, 1)
+A = randn(m, n); b = randn(m, 1)
 
 # Create a (column vector) variable of size n x 1.
 x = Variable(n)
